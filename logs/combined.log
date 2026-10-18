@@ -1,0 +1,216 @@
+{"level":"info","message":"User registered successfully: babar","timestamp":"2026-10-14 11:46:27"}
+{"duration":"216ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-14 11:46:27"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-14 16:11:33"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-14 16:13:40"}
+{"email":"babaruser37@gmail.com","level":"warn","message":"Signup conflict: User already exists with email or username","timestamp":"2026-10-14 16:13:45","username":"babar"}
+{"duration":"31ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-14 16:13:45"}
+{"email":"babaruser37@gmail.com","level":"warn","message":"Signup conflict: User already exists with email or username","timestamp":"2026-10-14 16:13:53","username":"babar"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-14 16:13:53"}
+{"level":"warn","message":"Signup conflict: User already exists with email or username","timestamp":"2026-10-14 16:14:17","username":"babar"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-14 16:14:17"}
+{"level":"warn","message":"Signup conflict: User already exists with email or username","timestamp":"2026-10-14 16:15:10","username":"babar"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-14 16:15:10"}
+{"level":"info","message":"User logged in successfully: babar","timestamp":"2026-10-14 16:15:55"}
+{"duration":"72ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-14 16:15:55"}
+{"level":"warn","message":"Authentication failed: invalid token","path":"/api/v1/emp","timestamp":"2026-10-14 16:20:45"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":401,"timestamp":"2026-10-14 16:20:45"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 16:20:53"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 16:20:57"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 16:21:24"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 16:22:08"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 16:22:47"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 19:18:27"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/employees","status":404,"timestamp":"2026-10-14 19:19:22"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-14 19:26:10"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-14 19:26:18"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/employees","status":404,"timestamp":"2026-10-14 19:26:22"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp","status":404,"timestamp":"2026-10-14 19:26:37"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-14 19:27:16"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-14 19:29:35"}
+{"errors":[{"location":"body","msg":"First name is required","path":"first_name","type":"field","value":""},{"location":"body","msg":"Last name is required","path":"last_name","type":"field","value":""},{"location":"body","msg":"Email is required","path":"email","type":"field","value":""},{"location":"body","msg":"Please provide a valid employee email address","path":"email","type":"field","value":""},{"location":"body","msg":"Position is required","path":"position","type":"field","value":""},{"location":"body","msg":"Salary is required","path":"salary","type":"field"},{"location":"body","msg":"Salary must be a numeric value","path":"salary","type":"field"},{"location":"body","msg":"Salary cannot be negative","path":"salary","type":"field"},{"location":"body","msg":"Date of joining is required","path":"date_of_joining","type":"field"},{"location":"body","msg":"Date of joining must be a valid date format (YYYY-MM-DD)","path":"date_of_joining","type":"field"},{"location":"body","msg":"Department is required","path":"department","type":"field","value":""}],"level":"warn","message":"Input validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-14 19:31:04"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-14 19:31:04"}
+{"errors":[{"location":"body","msg":"Position is required","path":"position","type":"field","value":""},{"location":"body","msg":"Date of joining must be a valid date format (YYYY-MM-DD)","path":"date_of_joining","type":"field","value":"01-01-2012"}],"level":"warn","message":"Input validation failed","path":"/api/v1/emp/employees","timestamp":"2026-10-14 19:34:24"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-14 19:34:24"}
+{"employeeId":"6ad011a304bbc5e1a03c6ef3","level":"info","message":"Employee created successfully by user 6acfa3d3c0ce8087d1e08a3f","timestamp":"2026-10-14 19:34:59"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-14 19:34:59"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/","status":200,"timestamp":"2026-10-14 19:41:39"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":200,"timestamp":"2026-10-14 19:41:52"}
+{"level":"warn","message":"Authentication failed: Missing or malformed token header","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","timestamp":"2026-10-14 19:45:49"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"PUT","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":401,"timestamp":"2026-10-14 19:45:49"}
+{"employeeId":"6ad011a304bbc5e1a03c6ef3","level":"info","message":"Employee updated successfully","timestamp":"2026-10-14 19:46:36"}
+{"duration":"33ms","ip":"::1","level":"info","message":"HTTP Request","method":"PUT","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":200,"timestamp":"2026-10-14 19:46:36"}
+{"level":"warn","message":"Authentication failed: Missing or malformed token header","path":"/api/v1/emp/employees","timestamp":"2026-10-14 19:46:47"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-14 19:46:47"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-14 19:47:00"}
+{"level":"warn","message":"Authentication failed: Missing or malformed token header","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","timestamp":"2026-10-14 19:47:30"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":401,"timestamp":"2026-10-14 19:47:30"}
+{"level":"warn","message":"Authentication failed: Missing or malformed token header","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","timestamp":"2026-10-14 19:47:58"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":401,"timestamp":"2026-10-14 19:47:58"}
+{"level":"warn","message":"Authentication failed: Missing or malformed token header","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","timestamp":"2026-10-14 19:48:05"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":401,"timestamp":"2026-10-14 19:48:05"}
+{"employeeId":"6ad011a304bbc5e1a03c6ef3","level":"info","message":"Employee deleted successfully","timestamp":"2026-10-14 19:48:09"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":204,"timestamp":"2026-10-14 19:48:09"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-14 19:48:15"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 18:42:15"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-18 18:43:21"}
+{"email":"babaruser37@gmail.com","level":"warn","message":"Signup conflict: User already exists with email or username","timestamp":"2026-10-18 18:43:32","username":"babar"}
+{"duration":"69ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-18 18:43:32"}
+{"level":"info","message":"User registered successfully: babar1","timestamp":"2026-10-18 18:43:54"}
+{"duration":"271ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 18:43:54"}
+{"level":"info","message":"User logged in successfully: babar1","timestamp":"2026-10-18 18:44:21"}
+{"duration":"175ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 18:44:21"}
+{"level":"warn","message":"Authentication failed: jwt expired","path":"/api/v1/emp/employees","timestamp":"2026-10-18 18:44:47"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-18 18:44:47"}
+{"duration":"57ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 18:45:05"}
+{"employeeId":"6ad54c13637f36221d071b20","level":"info","message":"Employee created successfully by user 6ad54baa637f36221d071b1f","timestamp":"2026-10-18 18:45:39"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 18:45:39"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 18:46:19"}
+{"level":"warn","message":"Authentication failed: jwt expired","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","timestamp":"2026-10-18 18:47:27"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":401,"timestamp":"2026-10-18 18:47:27"}
+{"employeeId":"6ad011a304bbc5e1a03c6ef3","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 18:47:49","userId":"6ad54baa637f36221d071b1f"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad011a304bbc5e1a03c6ef3","status":404,"timestamp":"2026-10-18 18:47:49"}
+{"employeeId":"6ad54baa637f36221d071b1f","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 18:47:56","userId":"6ad54baa637f36221d071b1f"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad54baa637f36221d071b1f","status":404,"timestamp":"2026-10-18 18:47:56"}
+{"employeeId":"6ad54baa637f36221d071b1f","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 18:47:58","userId":"6ad54baa637f36221d071b1f"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad54baa637f36221d071b1f","status":404,"timestamp":"2026-10-18 18:47:58"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/6ad54c13637f36221d071b20","status":200,"timestamp":"2026-10-18 18:48:10"}
+{"employeeId":"6ad54c13637f36221d071b20","level":"info","message":"Employee updated successfully","timestamp":"2026-10-18 18:48:44"}
+{"duration":"33ms","ip":"::1","level":"info","message":"HTTP Request","method":"PUT","path":"/api/v1/emp/employees/6ad54c13637f36221d071b20","status":200,"timestamp":"2026-10-18 18:48:44"}
+{"employeeId":"6ad54c13637f36221d071b20","level":"info","message":"Employee deleted successfully","timestamp":"2026-10-18 18:49:29"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/api/v1/emp/employees/6ad54c13637f36221d071b20","status":204,"timestamp":"2026-10-18 18:49:29"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 18:50:07"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 18:53:26"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 18:56:14"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 19:05:34"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 19:06:48"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 19:13:41"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 19:13:53"}
+{"duration":"15ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-18 19:14:03"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"75ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"73ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"76ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"74ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"75ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:04"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:04"}
+{"duration":"16ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"74ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"74ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:04"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:04"}
+{"duration":"7ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"duration":"2ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"72ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:04"}
+{"duration":"73ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:04"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:04"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:04"}
+{"level":"error","message":"Signup error: object is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2026-10-18 19:14:04"}
+{"duration":"6ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":500,"timestamp":"2026-10-18 19:14:04"}
+{"identifier":"userb@test.com","level":"warn","message":"Login failed: User not found","timestamp":"2026-10-18 19:14:04"}
+{"duration":"3ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":400,"timestamp":"2026-10-18 19:14:04"}
+{"level":"warn","message":"Authentication failed: jwt malformed","path":"/api/v1/emp/employees/employee-1","timestamp":"2026-10-18 19:14:04"}
+{"duration":"8ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/employee-1","status":401,"timestamp":"2026-10-18 19:14:04"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-10-18 19:14:09"}
+{"duration":"13ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-18 19:14:12"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:12"}
+{"duration":"65ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:12"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:12"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:12"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:12"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:12"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:13"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:13"}
+{"duration":"11ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:13"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:13"}
+{"duration":"6ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"duration":"1ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:13"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:13"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:13"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User registered successfully: userb","timestamp":"2026-10-18 19:14:13"}
+{"duration":"64ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:13"}
+{"level":"info","message":"User logged in successfully: userb","timestamp":"2026-10-18 19:14:13"}
+{"duration":"65ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:13"}
+{"employeeId":"employee-1","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 19:14:13","userId":"user-2"}
+{"duration":"4ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/employee-1","status":404,"timestamp":"2026-10-18 19:14:13"}
+{"duration":"17ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-18 19:14:27"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"75ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"74ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"76ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"79ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"88ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:28"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:28"}
+{"duration":"13ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:28"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:28"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"duration":"1ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:14:28"}
+{"duration":"66ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:28"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:14:28"}
+{"duration":"4ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User registered successfully: userb","timestamp":"2026-10-18 19:14:28"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:14:28"}
+{"level":"info","message":"User logged in successfully: userb","timestamp":"2026-10-18 19:14:29"}
+{"duration":"61ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:14:29"}
+{"employeeId":"employee-1","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 19:14:29","userId":"user-2"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/employee-1","status":404,"timestamp":"2026-10-18 19:14:29"}
+{"duration":"10ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-18 19:15:10"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"62ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:15:11"}
+{"duration":"13ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"61ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"60ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:15:11"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"duration":"1ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User registered successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"63ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User logged in successfully: usera","timestamp":"2026-10-18 19:15:11"}
+{"duration":"72ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"employeeId":"employee-1","level":"info","message":"Employee created successfully by user user-1","timestamp":"2026-10-18 19:15:11"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User registered successfully: userb","timestamp":"2026-10-18 19:15:11"}
+{"duration":"75ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-18 19:15:11"}
+{"level":"info","message":"User logged in successfully: userb","timestamp":"2026-10-18 19:15:11"}
+{"duration":"77ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-18 19:15:11"}
+{"employeeId":"employee-1","level":"warn","message":"Unauthorized or missing employee access attempt","timestamp":"2026-10-18 19:15:11","userId":"user-2"}
+{"duration":"5ms","ip":"127.0.0.1","level":"info","message":"HTTP Request","method":"GET","path":"/api/v1/emp/employees/employee-1","status":404,"timestamp":"2026-10-18 19:15:11"}
